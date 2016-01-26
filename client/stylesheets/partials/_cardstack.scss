@@ -1,0 +1,21 @@
+.stack {
+  margin: 20px auto;
+  width: 400px;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.stack li {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.stack li:last-child {
+  position: relative;
+  height: 100%;
+  z-index: 10;
+}
