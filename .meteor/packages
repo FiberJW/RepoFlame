@@ -24,3 +24,7 @@ fourseven:scss
 materialize:materialize
 service-configuration
 http
+percolate:synced-cron
+random
+sacha:spin
+thereactivestack:blazetoreact

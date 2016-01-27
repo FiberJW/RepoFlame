@@ -1,8 +1,6 @@
 Card = React.createClass({
   ooo(e){
     e.preventDefault();
-    var card = stack.getCard(ReactDOM.findDOMNode(this));
-    card.throwOut(1);
     window.open(this.props.repo.repoUrl,'_blank');
   },
   render() {
