@@ -3,7 +3,7 @@
   color: white !important;
   text-shadow: 0 0 5px #333 !important;
 }
-.card {
+.stack li .card {
   box-shadow: none !important;
   margin: 0 !important;
 }
@@ -12,4 +12,7 @@
 }
 .ooo-button:hover {
   box-shadow: 0 0 8px #333 !important;
+}
+.blur-me {
+  filter: blur(5px) !important;
 }
