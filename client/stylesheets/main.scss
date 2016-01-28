@@ -1,4 +1,10 @@
+@import 'partials/variables';
 @import 'partials/card';
 @import 'partials/header';
 @import 'partials/cardstack';
 @import 'partials/footer';
+
+body {
+  font-family: "Varela Round";
+  background-color: #FDF7EB;
+}
