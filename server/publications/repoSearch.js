@@ -11,6 +11,7 @@ Meteor.publish('repoSearch', function() {
         var doc = {
           name: repo.title,
           id: Random.id(),
+          image: "http://loremflickr.com/500/150/burning?random=" + Random.id(),
           language: repo.language,
           description: repo.description,
           repoUrl: repo.url,
