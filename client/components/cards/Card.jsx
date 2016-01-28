@@ -2,7 +2,7 @@ Card = React.createClass({
   render() {
     return (
       <li>
-        <div className="card medium">
+        <div className="card large">
           <div className="card-image">
             <img height='150' className='blur-me' alt='Flame' src={this.props.repo.image}/>
             <a className='card-title' href={this.props.repo.repoUrl} target='_BLANK'>{this.props.repo.name || 'Classified.'}</a>
