@@ -4,7 +4,7 @@ Tinder for :octocat:
 # Case 1:
 ### You just want to check it out.
 
-Click [Here](http://repoflame.meteor.com)
+Click [Here](http://repoflame.meteor.com) * doesn't work now because of meteor repealing its free hosting service.
 
 # Case 2:
 ### You want to see the source code.
